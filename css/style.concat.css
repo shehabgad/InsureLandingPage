@@ -9,7 +9,7 @@
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     html {
       font-size: 66%; } }
 
@@ -25,7 +25,7 @@ body {
   line-height: 1;
   margin-bottom: 1.4rem;
   font-size: 5rem; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .main-heading {
       font-size: 3.6rem; } }
 
@@ -36,7 +36,7 @@ body {
   margin-bottom: 1.4rem;
   font-size: 7rem;
   color: #2b272f; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .main-heading-2 {
       font-size: 4.3rem; } }
 
@@ -51,7 +51,7 @@ body {
 .container {
   width: 80vw;
   margin: 0 auto; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .container {
       width: 100%; } }
 
@@ -60,18 +60,18 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .header {
       padding: 2rem; } }
   .header .hamb-icon {
     display: none; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .header .hamb-icon {
         display: block; } }
   .header .list {
     list-style-type: none;
     display: flex; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .header .list {
         display: none; } }
     .header .list__item:last-child a {
@@ -125,38 +125,38 @@ body {
   color: #fafafa;
   position: relative;
   margin-bottom: 29rem; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .hero-container {
       margin-bottom: 13rem; } }
 
 .hero {
   display: flex;
   align-items: center; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .hero {
       flex-direction: column;
       justify-content: center;
       align-items: center; } }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .hero__content {
       order: 1;
       text-align: center;
       padding: 5rem 1.5rem; } }
   .hero p {
     margin-bottom: 3rem; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .hero p {
         font-weight: 200; } }
   .hero h1 {
     margin-top: 4rem; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .hero h1 {
         margin-top: 0; } }
   .hero img {
     transform: translate(0, 12rem);
     max-width: 100%;
     height: auto; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .hero img {
         transform: translate(0, 0); } }
 
@@ -165,7 +165,7 @@ body {
   right: 0;
   top: 0;
   z-index: 1; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .hero-bg-pattern-1 {
       display: none; } }
 
@@ -174,7 +174,7 @@ body {
   left: 0;
   bottom: -31rem;
   z-index: 1; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .hero-bg-pattern-2 {
       display: none; } }
 
@@ -185,12 +185,12 @@ body {
   .features .features-box {
     display: flex;
     margin-top: 8rem; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .features .features-box {
         flex-direction: column;
         justify-content: center;
         align-items: center; } }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .features {
       text-align: center; } }
 
@@ -207,11 +207,11 @@ body {
   background-position-x: right; }
   .work-container .main-heading {
     font-size: 4rem; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .work-container .main-heading {
         font-size: 4rem;
         margin-bottom: 4rem; } }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .work-container {
       flex-direction: column;
       padding: 5rem 0.8rem;
@@ -231,7 +231,7 @@ body {
   background-size: contain;
   background-position-x: left;
   padding: 4rem 0; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .footer {
       background-image: url("../../images/bg-pattern-footer-mobile.svg");
       background-repeat: no-repeat;
@@ -254,36 +254,36 @@ body {
       cursor: pointer; }
       .footer-sec-1 .footer__icons object:active {
         fill: #832; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .footer-sec-1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-bottom: 0.2rem; } }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .footer-sec-1 img {
         margin-bottom: 2.5rem; } }
   .footer-sec-2 {
     display: flex;
     font-size: 1.4rem; }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .footer-sec-2 {
         flex-direction: column;
         justify-content: center;
         align-items: center; } }
     .footer-sec-2 .footer-list:not(:last-child) {
       margin-right: 23rem; }
-      @media (max-width: 24em) {
+      @media (max-width: 81em) {
         .footer-sec-2 .footer-list:not(:last-child) {
           margin-right: 0; } }
-    @media (max-width: 24em) {
+    @media (max-width: 81em) {
       .footer-sec-2 .footer-list {
         margin-bottom: 2rem; } }
     .footer-sec-2 .footer-list p {
       color: #837d87;
       margin-bottom: 3rem;
       text-transform: uppercase; }
-      @media (max-width: 24em) {
+      @media (max-width: 81em) {
         .footer-sec-2 .footer-list p {
           margin-bottom: 2.5rem; } }
     .footer-sec-2 .footer-list ul {
@@ -313,7 +313,7 @@ body {
   height: 1px;
   width: 12rem;
   background-color: #fafafa; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .line {
       display: none; } }
 
@@ -321,13 +321,13 @@ body {
   height: 1px;
   width: 12rem;
   background-color: #837d87; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .line-2 {
       margin: 0 auto; } }
 
 .feature-box:not(:last-child) {
   margin-right: 3rem; }
-  @media (max-width: 24em) {
+  @media (max-width: 81em) {
     .feature-box:not(:last-child) {
       margin-right: 0;
       margin-bottom: 6rem; } }
@@ -340,7 +340,7 @@ body {
   height: 8rem;
   margin-bottom: 3rem; }
 
-@media (max-width: 24em) {
+@media (max-width: 81em) {
   .feature-box {
     text-align: center; } }
 
