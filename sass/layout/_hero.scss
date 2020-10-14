@@ -1,0 +1,64 @@
+.hero-container {
+  background-color: $primary-dark-violet;
+  color: $neutral-light-gray;
+  position: relative;
+  margin-bottom: 29rem;
+  @include respond(phone) {
+    margin-bottom: 13rem;
+  }
+}
+.hero {
+  display: flex;
+  align-items: center;
+  @include respond(phone) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__content {
+    @include respond(phone) {
+      order: 1;
+      text-align: center;
+      padding: 5rem 1.5rem;
+    }
+  }
+  p {
+    margin-bottom: 3rem;
+    @include respond(phone) {
+      font-weight: 200;
+    }
+  }
+  h1 {
+    margin-top: 4rem;
+    @include respond(phone) {
+      margin-top: 0;
+    }
+  }
+
+  img {
+    transform: translate(0, 12rem);
+    max-width: 100%;
+    height: auto;
+    @include respond(phone) {
+      transform: translate(0, 0);
+    }
+  }
+}
+.hero-bg-pattern-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  @include respond(phone) {
+    display: none;
+  }
+}
+.hero-bg-pattern-2 {
+  position: absolute;
+  left: 0;
+  bottom: -31rem;
+  z-index: 1;
+  @include respond(phone) {
+    display: none;
+  }
+}

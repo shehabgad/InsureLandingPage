@@ -1,0 +1,88 @@
+.footer {
+  background-color: $neutral-light-gray;
+  background-image: url("../../images/bg-pattern-footer-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: left;
+  @include respond(phone) {
+    background-image: url("../../images/bg-pattern-footer-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    text-align: center;
+    padding: 0 2rem;
+    padding-top: 8rem;
+    padding-bottom: 9rem;
+  }
+  &-sec-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.3rem;
+    border-bottom: 1px solid $neutral-grayish-violet;
+    .footer_icons object:not(:last-child) {
+      margin-right: 1.2rem;
+    }
+    .footer__icons object {
+      cursor: pointer;
+      &:active {
+        fill: #832;
+      }
+    }
+    margin-bottom: 5rem;
+    @include respond(phone) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 0.2rem;
+    }
+    img {
+      @include respond(phone) {
+        margin-bottom: 2.5rem;
+      }
+    }
+  }
+  padding: 4rem 0;
+  &-sec-2 {
+    display: flex;
+    @include respond(phone) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    font-size: 1.4rem;
+    .footer-list:not(:last-child) {
+      margin-right: 23rem;
+      @include respond(phone) {
+        margin-right: 0;
+      }
+    }
+    .footer-list {
+      @include respond(phone) {
+        margin-bottom: 2rem;
+      }
+      p {
+        color: $neutral-grayish-violet;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        @include respond(phone) {
+          margin-bottom: 2.5rem;
+        }
+      }
+      ul {
+        list-style-type: none;
+        .footer-item {
+          a {
+            color: $neutral-dark-violet;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

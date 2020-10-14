@@ -1,0 +1,32 @@
+.work-container {
+  background-color: $primary-dark-violet;
+  display: flex;
+  justify-content: space-between;
+  color: $neutral-light-gray;
+  align-items: center;
+
+  .main-heading {
+    font-size: 4rem;
+    @include respond(phone) {
+      font-size: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+  padding: 5rem 7rem;
+  background-image: url("../../images/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  @include respond(phone) {
+    flex-direction: column;
+    padding: 5rem 0.8rem;
+    text-align: center;
+    background-image: url("../../images/bg-pattern-how-we-work-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+  }
+}
+.work {
+  margin-bottom: 9rem;
+}
